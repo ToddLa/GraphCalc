@@ -7,46 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0852E51B21FB1A00E9B767 /* GraphCalcSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0852E41B21FB1A00E9B767 /* GraphCalcSplitViewController.swift */; };
 		EF4526351B1E2AF800AFA3B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4526341B1E2AF800AFA3B9 /* AppDelegate.swift */; };
-		EF4526371B1E2AF800AFA3B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4526361B1E2AF800AFA3B9 /* ViewController.swift */; };
 		EF45263A1B1E2AF800AFA3B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4526381B1E2AF800AFA3B9 /* Main.storyboard */; };
 		EF45263C1B1E2AF800AFA3B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF45263B1B1E2AF800AFA3B9 /* Images.xcassets */; };
 		EF45263F1B1E2AF800AFA3B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF45263D1B1E2AF800AFA3B9 /* LaunchScreen.xib */; };
-		EF45264B1B1E2AF800AFA3B9 /* GraphCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45264A1B1E2AF800AFA3B9 /* GraphCalcTests.swift */; };
+		EF4526551B1E2BC500AFA3B9 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4526541B1E2BC500AFA3B9 /* CalculatorViewController.swift */; };
+		EF4526571B1E2BD700AFA3B9 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4526561B1E2BD700AFA3B9 /* CalculatorBrain.swift */; };
+		EFD6CC6E1B1E6ADB00AD1EA7 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6CC6C1B1E682E00AD1EA7 /* GraphViewController.swift */; };
+		EFD6CC701B1E725500AD1EA7 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6CC6F1B1E725500AD1EA7 /* GraphView.swift */; };
+		EFD6CC721B1E736700AD1EA7 /* AxesDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD6CC711B1E736700AD1EA7 /* AxesDrawer.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EF4526451B1E2AF800AFA3B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF4526271B1E2AF800AFA3B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF45262E1B1E2AF800AFA3B9;
-			remoteInfo = GraphCalc;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		EF0852E41B21FB1A00E9B767 /* GraphCalcSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCalcSplitViewController.swift; sourceTree = "<group>"; };
 		EF45262F1B1E2AF800AFA3B9 /* GraphCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4526331B1E2AF800AFA3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF4526341B1E2AF800AFA3B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF4526361B1E2AF800AFA3B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF4526391B1E2AF800AFA3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF45263B1B1E2AF800AFA3B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF45263E1B1E2AF800AFA3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EF4526441B1E2AF800AFA3B9 /* GraphCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF4526491B1E2AF800AFA3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF45264A1B1E2AF800AFA3B9 /* GraphCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCalcTests.swift; sourceTree = "<group>"; };
+		EF4526541B1E2BC500AFA3B9 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		EF4526561B1E2BD700AFA3B9 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		EFD6CC6C1B1E682E00AD1EA7 /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		EFD6CC6F1B1E725500AD1EA7 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		EFD6CC711B1E736700AD1EA7 /* AxesDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxesDrawer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF45262C1B1E2AF800AFA3B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF4526411B1E2AF800AFA3B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				EF4526311B1E2AF800AFA3B9 /* GraphCalc */,
-				EF4526471B1E2AF800AFA3B9 /* GraphCalcTests */,
 				EF4526301B1E2AF800AFA3B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				EF45262F1B1E2AF800AFA3B9 /* GraphCalc.app */,
-				EF4526441B1E2AF800AFA3B9 /* GraphCalcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,11 +64,15 @@
 		EF4526311B1E2AF800AFA3B9 /* GraphCalc */ = {
 			isa = PBXGroup;
 			children = (
+				EF0852E41B21FB1A00E9B767 /* GraphCalcSplitViewController.swift */,
+				EFD6CC711B1E736700AD1EA7 /* AxesDrawer.swift */,
+				EFD6CC6F1B1E725500AD1EA7 /* GraphView.swift */,
+				EFD6CC6C1B1E682E00AD1EA7 /* GraphViewController.swift */,
 				EF4526341B1E2AF800AFA3B9 /* AppDelegate.swift */,
-				EF4526361B1E2AF800AFA3B9 /* ViewController.swift */,
+				EF4526561B1E2BD700AFA3B9 /* CalculatorBrain.swift */,
+				EF4526541B1E2BC500AFA3B9 /* CalculatorViewController.swift */,
 				EF4526381B1E2AF800AFA3B9 /* Main.storyboard */,
 				EF45263B1B1E2AF800AFA3B9 /* Images.xcassets */,
-				EF45263D1B1E2AF800AFA3B9 /* LaunchScreen.xib */,
 				EF4526321B1E2AF800AFA3B9 /* Supporting Files */,
 			);
 			path = GraphCalc;
@@ -90,24 +81,8 @@
 		EF4526321B1E2AF800AFA3B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF45263D1B1E2AF800AFA3B9 /* LaunchScreen.xib */,
 				EF4526331B1E2AF800AFA3B9 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EF4526471B1E2AF800AFA3B9 /* GraphCalcTests */ = {
-			isa = PBXGroup;
-			children = (
-				EF45264A1B1E2AF800AFA3B9 /* GraphCalcTests.swift */,
-				EF4526481B1E2AF800AFA3B9 /* Supporting Files */,
-			);
-			path = GraphCalcTests;
-			sourceTree = "<group>";
-		};
-		EF4526481B1E2AF800AFA3B9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF4526491B1E2AF800AFA3B9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,39 +107,18 @@
 			productReference = EF45262F1B1E2AF800AFA3B9 /* GraphCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF4526431B1E2AF800AFA3B9 /* GraphCalcTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF4526511B1E2AF800AFA3B9 /* Build configuration list for PBXNativeTarget "GraphCalcTests" */;
-			buildPhases = (
-				EF4526401B1E2AF800AFA3B9 /* Sources */,
-				EF4526411B1E2AF800AFA3B9 /* Frameworks */,
-				EF4526421B1E2AF800AFA3B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF4526461B1E2AF800AFA3B9 /* PBXTargetDependency */,
-			);
-			name = GraphCalcTests;
-			productName = GraphCalcTests;
-			productReference = EF4526441B1E2AF800AFA3B9 /* GraphCalcTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		EF4526271B1E2AF800AFA3B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Todd Laney";
 				TargetAttributes = {
 					EF45262E1B1E2AF800AFA3B9 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					EF4526431B1E2AF800AFA3B9 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = EF45262E1B1E2AF800AFA3B9;
 					};
 				};
 			};
@@ -182,7 +136,6 @@
 			projectRoot = "";
 			targets = (
 				EF45262E1B1E2AF800AFA3B9 /* GraphCalc */,
-				EF4526431B1E2AF800AFA3B9 /* GraphCalcTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +151,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF4526421B1E2AF800AFA3B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,28 +158,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4526371B1E2AF800AFA3B9 /* ViewController.swift in Sources */,
+				EFD6CC701B1E725500AD1EA7 /* GraphView.swift in Sources */,
+				EF4526551B1E2BC500AFA3B9 /* CalculatorViewController.swift in Sources */,
+				EFD6CC6E1B1E6ADB00AD1EA7 /* GraphViewController.swift in Sources */,
+				EF4526571B1E2BD700AFA3B9 /* CalculatorBrain.swift in Sources */,
 				EF4526351B1E2AF800AFA3B9 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF4526401B1E2AF800AFA3B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF45264B1B1E2AF800AFA3B9 /* GraphCalcTests.swift in Sources */,
+				EFD6CC721B1E736700AD1EA7 /* AxesDrawer.swift in Sources */,
+				EF0852E51B21FB1A00E9B767 /* GraphCalcSplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EF4526461B1E2AF800AFA3B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF45262E1B1E2AF800AFA3B9 /* GraphCalc */;
-			targetProxy = EF4526451B1E2AF800AFA3B9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EF4526381B1E2AF800AFA3B9 /* Main.storyboard */ = {
@@ -291,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,40 +293,6 @@
 			};
 			name = Release;
 		};
-		EF4526521B1E2AF800AFA3B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GraphCalcTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphCalc.app/GraphCalc";
-			};
-			name = Debug;
-		};
-		EF4526531B1E2AF800AFA3B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GraphCalcTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphCalc.app/GraphCalc";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,14 +312,7 @@
 				EF4526501B1E2AF800AFA3B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		EF4526511B1E2AF800AFA3B9 /* Build configuration list for PBXNativeTarget "GraphCalcTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF4526521B1E2AF800AFA3B9 /* Debug */,
-				EF4526531B1E2AF800AFA3B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
